@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="restaurant.css">
+    <title>My First Site</title>
+  </head>
+  <body>
+    <header>
+      Welcome to the Bloc Restaurant!
+    </header>
+    <section class="col col--25">
+      <div>
+        <nav>
+          <ul>
+            <li><a href='/index.html'>Home</a></li>
+            <li><a href='/about.html'>About</a></li>
+            <li><a href='/contact.html'>Contact</a></li>
+            <li><a href='/prices.html'>Best Prices In Town.</a></li>
+          </ul>
+        </nav>
+        <h2>Make a reservation</h2>
+        <form action="" method="">
+          <fieldset>
+            <legend>Contact Info</legend>
+              <input type="text" id="firstName">
+              <label for="firstName">First Name</label>
+              <input type="text" id="lastName">
+              <label for="lastName">Last Name</label>
+              <input type="email" id="emailAddress" >
+              <label for="emailAddress">Email Address</label>
+              <input type="text" id="phoneNumber">
+              <label for="phoneNumber">Phone Number</label>
+          </fieldset>
+          <fieldset>
+            <legend>Select a time</legend>
+              <select>
+                <option value="6pm">6:00pm</option>
+                <option value="630pm">6:30pm</option>
+                <option value="7pm">7:00pm</option>
+                <option value="730pm">7:30pm</option>
+                <option value="8pm">8:00pm</option>
+                <option value="830pm">8:30pm</option>
+                <option value="9pm">9:00pm</option>
+              </select>
+          </fieldset>
+          <fieldset>
+            <legend>Comments</legend>
+            <textarea col="50" row="4"></textarea>
+          </fieldset>
+          <div>
+            <input type="submit">
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="col col--75">
+      <div>
+        <h1>Our Menu</h1>
+        <table class="table">
+          <thead> <!-- table header declaration -->
+            <tr> <!-- start table header row -->
+              <th>Food</th> <!-- table header cell -->
+              <th>Description</th> <!-- table header cell -->
+              <th>Price</th> <!-- table header cell -->
+              <th>Picture</th>
+            </tr> <!-- end table header row -->
+          </thead>
+          <tbody> <!-- table body declaration -->
+            <tr> <!-- table row start -->
+              <td>Salad</td> <!-- table body cell -->
+              <td>Fresh, delicious Cobb salad</td> <!-- table body cell -->
+              <td>$7.99</td> <!-- table body cell -->
+              <td><img src="https://s3.amazonaws.com/bloc-foo/salad.jpg" alt='image of a salad'></td>
+            </tr> <!-- end table row -->
+            <tr>
+              <td>Burger</td>
+              <td>1/4 lb grass-fed burger with choice of cheese</td>
+              <td>$6.99</td>
+              <td><img src="https://s3.amazonaws.com/bloc-foo/hamburger.jpg" alt='image of a hamburger'></td>
+            </tr>
+            <tr>
+              <td>Chicken Salad Sandwich</td>
+              <td>Our world famous chicken salad on a bagel with homemade pickles</td>
+              <td>$8.99</td>
+              <td><img src="https://s3.amazonaws.com/bloc-foo/chicken_salad_sandwich.jpg" alt='image of a chicken salad sandwich'></td>
+            </tr>
+            <tr>
+              <td>Buffalo Chicken Sandwich</td>
+              <td>Spicy fried chicken on a brioche bun</td>
+              <td>$10.99</td>
+              <td><img src="https://s3.amazonaws.com/bloc-foo/buffalo_chicken_sandwich.jpg" alt='image of a buffalo chicken sandwhich'></td>
+            </tr>
+            <tr>
+              <td>Fries</td>
+              <td>Hand cut potatoes lightly fried and seasoned</td>
+              <td>$1.99</td>
+              <td><img src="https://s3.amazonaws.com/bloc-foo/fries.jpeg" alt='image of french fries'></td>
+            </tr>
+            <tr>
+              <td>Soda</td>
+              <td>Regular, diet, orange, or root beer</td>
+              <td>$1.00</td>
+              <td><img src="https://s3.amazonaws.com/bloc-foo/soda.jpeg" alt='image of a soda cup'></td>
+            </tr>
+          </tbody> <!-- end table body -->
+        </table>
+      </div>
+    </section>
+  </body>
+</html>

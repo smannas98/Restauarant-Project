@@ -1,0 +1,65 @@
+header {
+  text-align: center;
+  font-size: 48px;
+}
+
+li {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.col {
+  float: left;
+}
+
+.col--25 {
+  width: 24%;
+  margin-right: 1%;
+}
+
+.col--25 > div {
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #000;
+}
+
+.col--75 {
+  width: 75%;
+}
+
+.col--75 > div {
+  border: 3px solid #000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 50px 50px 50px;
+  border-radius: 10px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px #666;
+}
+
+.table th,
+td {
+  border: 1px solid black;
+}
+
+.table th {
+  height: 50px;
+  width: 250px;
+}
+
+.table tr,
+.table tr:last-child td {
+  border-radius: 10px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
